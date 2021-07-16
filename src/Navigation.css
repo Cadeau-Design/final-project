@@ -1,0 +1,53 @@
+.navigation {
+ overflow: hidden;
+ background-color: rgb(230, 172, 172);
+ padding-right: 150px;
+ padding-left: 180px;
+ align-items: center;
+ text-decoration: none;
+ list-style: none;
+  
+}
+
+
+.navigation_right li {
+  display: flex;
+  justify-content: space-evenly;
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  color: snow;
+  font-size: 19px;
+  font-weight: 600;
+  width: 15vw;
+  margin-top: 15px;
+  }
+
+  
+.navigation_right a {
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  color: snow;
+}
+
+.navigation_right :hover {
+  color: rgb(65, 27, 27);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+ 
+ 
+}
+
+.logo {
+  float:left;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+   
+}
+
+.logo a:hover {
+  cursor: pointer;
+  
+}
